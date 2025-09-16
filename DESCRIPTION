@@ -1,0 +1,20 @@
+Package: liu.lab3.algorithms
+Type: Package
+Title: What the Package Does (Title Case)
+Version: 0.1.0
+Authors@R: c(
+    person(given = "Siyuan", family = "Xu", email = "ningschue@gmail.com", role = c("aut", "cre")),
+    person(given = "Mohan", family = "Zhang", email = "mohzh143@student.liu.se", role = c("aut")),
+    person(given = "Chenzhi", family = "Ni", email = "cheni622@student.liu.se", role = c("aut"))
+    )
+Description: This package provides R implementations of two classic algorithms:
+    the Euclidean algorithm for finding the greatest common divisor and
+    Dijkstra's algorithm for finding the shortest path in a graph.
+    This package was created as a group assignment submission for the lab 3
+    in the course 732A94 Advanced R Programming at Linköping University.
+License: MIT + file LICENSE
+Encoding: UTF-8
+LazyData: true
+RoxygenNote: 7.3.2
+Depends: 
+    R (>= 3.5)
