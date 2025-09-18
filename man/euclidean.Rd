@@ -2,27 +2,21 @@
 % Please edit documentation in R/euclidean.R
 \name{euclidean}
 \alias{euclidean}
-\title{Find the greatest common divisor of two numbers}
+\title{Euclidean Algorithm to find Greatest Common Divisor (GCD)}
 \usage{
 euclidean(a, b)
 }
 \arguments{
-\item{a}{A numeric scalar.}
+\item{a}{A positive integer.}
 
-\item{b}{A numeric scalar.}
+\item{b}{A positive integer.}
 }
 \value{
-The greatest common divisor of a and b.
+The greatest common divisor of `a` and `b`.
 }
 \description{
-This function implements the Euclidean algorithm to find the greatest
-common divisor (GCD) of two numeric scalars.
-}
-\examples{
-euclidean(123612, 13892347912)
-euclidean(100, 1000)
+This function implements the Euclidean algorithm to find the GCD of two numbers.
 }
 \references{
-The description and pseudocode for the algorithm can be found
-  at \url{https://en.wikipedia.org/wiki/Euclidean_algorithm}
+\url{https://en.wikipedia.org/wiki/Euclidean_algorithm}
 }
