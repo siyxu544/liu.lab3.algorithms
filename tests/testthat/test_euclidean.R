@@ -1,8 +1,11 @@
 test_that("euclidean function tests normal functionality", {
   expect_equal(euclidean(100, 10), 10)
+  expect_equal(euclidean(123612, 13892347912), 4)
   expect_equal(euclidean(48, 18), 6)
   expect_equal(euclidean(7, 0), 7)
   expect_equal(euclidean(1071, 462), 21)
+  expect_equal(euclidean(-100, 1000), 100)
+  expect_equal(euclidean(100, 1000), 100)
 })
 
 test_that("euclidean function tests invalid input", {
@@ -10,4 +13,7 @@ test_that("euclidean function tests invalid input", {
   expect_error(euclidean(10, Inf)) #The parameter is infinitely large
   expect_error(euclidean(c(2, 3), 10)) #The parameter is a vector
   expect_error(euclidean(10.5, 5.2)) #The parameter is a floating-point number
+  expect_error(euclidean("100", 1000))
+  expect_error(euclidean(100, "1000"))
+  expect_error(euclidean(TRUE, "1000"))
 })
