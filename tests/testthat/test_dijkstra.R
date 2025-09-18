@@ -41,4 +41,9 @@ test_that("Dijkstra function tests invalid input", {
 
   # Non scalar initial node testing
   expect_error(dijkstra(wiki_graph, c(1,2)))
+
+  # Invalid column name testing
+  wrong_column_name_graph <- wiki_graph
+  names(wrong_column_name_graph) <- c("a", "v3", "v1")
+  expect_error(dijkstra(wrong_column_name_graph, 1))
 })
