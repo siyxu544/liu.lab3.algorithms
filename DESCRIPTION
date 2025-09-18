@@ -1,7 +1,7 @@
 Package: liu.lab3.algorithms
 Type: Package
-Title: What the Package Does (Title Case)
-Version: 0.1.0
+Title: An R Implementation of the Euclidean and Dijkstra Algorithms
+Version: 1.0.0
 Authors@R: c(
     person(given = "Siyuan", family = "Xu", email = "ningschue@gmail.com", role = c("aut", "cre")),
     person(given = "Mohan", family = "Zhang", email = "mohzh143@student.liu.se", role = c("aut")),
