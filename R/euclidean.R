@@ -16,8 +16,8 @@ euclidean <- function(a, b){
     stop("Error! Parameters must be integers")
   }
   # The absolute value of the argument
-  x <- abs(a)
-  y <- abs(b)
+  a <- abs(a)
+  b <- abs(b)
   # The parameters have a situation where zero exists
   if (a == 0 && b == 0){
     return(0)
