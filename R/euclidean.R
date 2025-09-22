@@ -1,10 +1,13 @@
 #' Euclidean Algorithm to find Greatest Common Divisor (GCD)
 #'
-#' @param a A positive integer.
-#' @param b A positive integer.
+#' @param a An integer value.
+#' @param b An integer value.
 #' @return The greatest common divisor of `a` and `b`.
 #' @description This function implements the Euclidean algorithm to find the GCD of two numbers.
 #' @references \url{https://en.wikipedia.org/wiki/Euclidean_algorithm}
+#' @examples
+#' euclidean(123612, 13892347912)
+#' euclidean(100, 1000)
 #' @export
 euclidean <- function(a, b){
   # Check if both parameters are numeric scalars

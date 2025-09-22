@@ -7,15 +7,19 @@
 euclidean(a, b)
 }
 \arguments{
-\item{a}{A positive integer.}
+\item{a}{An integer value.}
 
-\item{b}{A positive integer.}
+\item{b}{An integer value.}
 }
 \value{
 The greatest common divisor of `a` and `b`.
 }
 \description{
 This function implements the Euclidean algorithm to find the GCD of two numbers.
+}
+\examples{
+euclidean(123612, 13892347912)
+euclidean(100, 1000)
 }
 \references{
 \url{https://en.wikipedia.org/wiki/Euclidean_algorithm}
